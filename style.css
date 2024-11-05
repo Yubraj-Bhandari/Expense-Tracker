@@ -1,0 +1,50 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.container{
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 50px;
+    background-color: #f9f9f9;
+    border-radius: 12px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    
+}
+input[type="text"],select,input[type="number"],input[type=submit]{
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+input[type="submit"]{
+    background-color: #4caf5d;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+input[type="submit"]:hover{
+    background-color: white;
+    color: #4caf5d;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-size:larger
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,td{
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+
+}
+th{
+    background-color: #4caf50;
+} 
+
